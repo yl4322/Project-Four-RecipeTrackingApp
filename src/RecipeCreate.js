@@ -25,6 +25,7 @@ const submitHandle = (event)=> {
   // TODO: Add the required input and textarea form elements.
   // TODO: Add the required submit and change handlers
   
+  /* Correction: adding this "required={true}" below prevent this app from submitting empty recipe */
 return (
     <form name="create" onSubmit={submitHandle}>
       <table>
@@ -34,6 +35,7 @@ return (
               <input
                 name="name"          
                 type="text"
+                required={true}
                 placeholder="Name"
                 onChange={changeHandle}
                 value={formData.name}
@@ -43,6 +45,7 @@ return (
               <input
                 name="cuisine"    
                 type="text"
+                required={true}
                 placeholder="Cuisine"
                 onChange={changeHandle}
                 value={formData.cuisine}
@@ -52,6 +55,7 @@ return (
               <input
                 name="photo"         
                 type="url"
+                required={true}
                 placeholder="URL"
                 onChange={changeHandle}
                 value={formData.photo}
@@ -60,6 +64,7 @@ return (
             <td>
               <textarea
                 name="ingredients"
+                required={true}
                 placeholder="Ingredients"  
                 onChange={changeHandle}
                 value={formData.ingredients}
@@ -69,6 +74,7 @@ return (
             <td>
               <textarea
                 name="preparation"
+                required={true}
                 placeholder="Preparation" 
                 onChange={changeHandle}  
                 value={formData.preparation}
