@@ -25,8 +25,7 @@ html {
 /*correction - adding flexbox to table header */
 thead th, tfoot th {
   font-family: 'Rock Salt';
-  display: flex;
-  flex-direction: row;
+  
 }
 
 th {
