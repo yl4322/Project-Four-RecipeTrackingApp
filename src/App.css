@@ -2,6 +2,7 @@
 
 .App {
   padding: 1em;
+ background-image: url("background.jpg")
 }
 
 label {
@@ -14,6 +15,7 @@ header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-size: 15px;
+  background-color: lightskyblue;
 }
 
 /* typography */
@@ -22,7 +24,6 @@ html {
   font-family: 'helvetica neue', sans-serif;
 }
 
-/*correction - adding flexbox to table header */
 thead th, tfoot th {
   font-family: 'Rock Salt';
   
@@ -31,6 +32,7 @@ thead th, tfoot th {
 th {
   letter-spacing: 2px;
   padding: 10px;
+
 }
 
 td {
@@ -50,6 +52,7 @@ table {
   border-collapse: collapse;
   overflow:hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: lightgray;
 }
 
 .content_td p {
