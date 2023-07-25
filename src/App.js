@@ -33,11 +33,10 @@ function App() {
       />
     </>
   );
-  
  */ 
 return (
     <div className="App">
-      <header><h1>Delicious Food Recipes</h1></header>
+      <header><h1 style={{ fontFamily: 'cursive',}}>Delicious Food Recipes</h1></header>
       <RecipeList 
 // recipes, setRacipes on the left side of the == can be anything you want to name
         recipes={recipes} // link to line 9

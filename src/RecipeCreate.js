@@ -55,7 +55,6 @@ return (
               <input
                 name="photo"         
                 type="url"
-                required={true}
                 placeholder="URL"
                 onChange={changeHandle}
                 value={formData.photo}

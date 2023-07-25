@@ -1,20 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
 
+/*adding personal preference and style */
 .App {
   padding: 1em;
+  background-size: cover;
+  background-image: url("pic.jpg");
+  color: white
 }
+
+
 
 label {
   display: inline-block;
   width: 100px;
 }
 
+h1{
+  font-size: 50px;
+}
 /*correction - make header center*/
 header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-size: 15px;
-  background-color: lightskyblue;
 }
 
 /* typography */
@@ -31,6 +39,7 @@ thead th, tfoot th {
 th {
   letter-spacing: 2px;
   padding: 10px;
+  color: blanchedalmond;
 
 }
 
@@ -41,6 +50,7 @@ td {
   font-size: 12px;
   padding: 10px;
   text-align: center;
+  color: rgb(227, 231, 221);
 }
 
 /* table */
@@ -51,7 +61,7 @@ table {
   border-collapse: collapse;
   overflow:hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  background-color: lightgray;
+  border: 0.1px solid whitesmoke;
 }
 
 .content_td p {
