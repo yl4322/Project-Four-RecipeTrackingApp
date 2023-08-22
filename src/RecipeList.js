@@ -9,7 +9,7 @@ function RecipeList({recipes, setRecipes, deleteRecipe}) {
   // TODO: Create at least one additional component that is used by this component.
   // TODO: Each recipe row must have a delete button - <button name="delete">Delete</button> - that deletes the post when clicked
 
-/*line 26 - 38 | module 26.7 knowledge */
+/*line 26 - 38 | module 26.7 (5.7now) knowledge .... ???????condusion here???????????????*/
  return (
     <div className="recipe-list">
       <table>
@@ -25,8 +25,8 @@ function RecipeList({recipes, setRecipes, deleteRecipe}) {
         </thead>
         <tbody className="tbody">
           {recipes.map((recipe, index) => (
-            <RecipeRow
-              recipe={recipe}
+            <RecipeRow  /* ok, "recipe" on the right from RecipeRow.js */
+              recipe={recipe} 
               deleteRecipe={() =>
               deleteRecipe(index)}
               key={index}/>

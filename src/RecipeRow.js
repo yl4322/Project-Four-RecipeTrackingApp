@@ -4,7 +4,7 @@ import React from 'react';
 function RecipeRow({recipe, deleteRecipe}) {
   console.log(recipe)
     return (
-      /* how to links the "name" "cuisine"...etc from data sheet to this??????????????????????*/
+      /* prop to link data*/
         <tr> 
             <td>{recipe.name}</td> 
             <td>{recipe.cuisine}</td>
