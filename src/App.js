@@ -6,7 +6,7 @@ import RecipeData from "./RecipeData"
 
 function App() {
   /* Relate to RecipeData.js file */
-  const [recipes, setRecipes] = useState(RecipeData); // imported as in line 5
+  const [recipes, setRecipes] = useState(RecipeData); // can only pass in 2 prop, and imported as in line 5
 
   // TODO: Add the ability for the <RecipeList /> component to list and delete an existing recipe.
   // TODO: Add the ability for the <RecipeCreate /> component to create new recipes.
@@ -42,7 +42,7 @@ return (
 // recipes, setRecipes on the left side of the == can be anything you want to name, related to RecipeList.js
         recipes={recipes} // line 9 ( prop to share info)
         setRecipes={setRecipes} 
-        // deleteRecipe={deleteRecipe} 
+        deleteRecipe={deleteRecipe} 
         />
      </div>
   );
