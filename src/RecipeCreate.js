@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 /* This is Thinkful module 26.8 knowledge*/
 function RecipeCreate({recipes, setRecipes}) {
+  //the paremeters in line 4 ******************************************
   const initialFormState = {
     name: "",
     cuisine: "",
